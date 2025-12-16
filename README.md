@@ -1,28 +1,36 @@
-Trend on Louisville NorthEast Library Aquisition in 2022
+## Trend on Louisville NorthEast Library Aquisition in 2022 ##
 
-SUMMARY:
+# SUMMARY: #
 
 The intention of this project is to see if there is a noticeable trend for acquisitions for the LFPL. While the original intent was to compare branches and see trends of aquisition over a period of time. The data was not public accesible by Louisville Metro for this analysis. Instead, I chose to focus on this specific year and analyze the different genres purchased, and how much money was spent per genre.
 
 
-DATA USED:
+# DATA USED: #
 
 First Data Source: https://data.louisvilleky.gov/datasets/6f00d1da8c374ff48d1f594155c341df_0/explore
 
 Second Data Source: I accessed an API to pull specific information in relation to the ISBN of the book: https://isbndb.com/isbn-database
 
 
-How to use:
+# How to use: #
 
-In terminal create a virtual environment: python -m venv venv
-Activate environment: source venv/scripts/activate
-Install the packages from requirements.txt: pip install -r requirements.txt
+In terminal create a virtual environment: 
+
+python -m venv venv
+
+Activate environment:
+
+source venv/scripts/activate
+
+Install the packages from requirements.txt:
+
+pip install -r requirements.txt
 
 Start in the lfpl_cleaning.ipynb notebook and run, selecting venv as the kernal.
 
 
 
-Contents:
+# Contents: #
 
 1. # lfpl_cleaning.ipynb #
     This is the first notebook created to read in the code from the Louisville Metro site.
@@ -53,11 +61,11 @@ Contents:
 4. # library_db.ipynb #
     This is the notebook where I made the connection to build the database and to import the data from the two csvs. 
 
-Use of AI:
+# Use of AI: #
 
 Any AI used in this project was to help debug some minor issues, double check on coding commands, and what I could do to fix the README file to become more professionally structured. 
 
-Final Findings:
+# Final Findings: #
 
 I started this project looking to see if there was a noticeable trend in the aquisition of books based on a library branch location. Doing this search for the NorthEast Branch of LFPL and based on the data presented, Juvenile Fiction was the highest spent genre in 2022. Based on the central location of the branch being less than a mile of several elementary schools and the YMCA, it is easy to predict this could be a heavy influence on the aquisition. It would be interesting to compare other branches to see if they also prioritize Juvenile and Childrne's fiction over all else, or if there is another influence.
 
