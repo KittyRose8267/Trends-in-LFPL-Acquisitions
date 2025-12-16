@@ -13,10 +13,16 @@ Second Data Source: I accessed an API to pull specific information in relation t
 
 
 How to use:
-In terminal create a virtual environment: -m venv/scripts/activate
+
+In terminal create a virtual environment: python -m venv venv
+Activate environment: venv/scripts/activate
 Install the packages from requirements.txt: pip install -r requirements.txt
 
-Contents
+Start in the lfpl_cleaning.ipynb notebook and run, selecting venv as the kernal.
+
+
+
+Contents:
 
 1. # lfpl_cleaning.ipynb #
     This is the first notebook created to read in the code from the Louisville Metro site.
