@@ -53,4 +53,12 @@ Contents:
 4. # library_db.ipynb #
     This is the notebook where I made the connection to build the database and to import the data from the two csvs. 
 
-Final Findings
+Use of AI:
+
+Any AI used in this project was to help debug some minor issues, double check on coding commands, and what I could do to fix the README file to become more professionally structured. 
+
+Final Findings:
+
+I started this project looking to see if there was a noticeable trend in the aquisition of books based on a library branch location. Doing this search for the NorthEast Branch of LFPL and based on the data presented, Juvenile Fiction was the highest spent genre in 2022. Based on the central location of the branch being less than a mile of several elementary schools and the YMCA, it is easy to predict this could be a heavy influence on the aquisition. It would be interesting to compare other branches to see if they also prioritize Juvenile and Childrne's fiction over all else, or if there is another influence.
+
+
