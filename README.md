@@ -15,7 +15,7 @@ Second Data Source: I accessed an API to pull specific information in relation t
 How to use:
 
 In terminal create a virtual environment: python -m venv venv
-Activate environment: venv/scripts/activate
+Activate environment: source venv/scripts/activate
 Install the packages from requirements.txt: pip install -r requirements.txt
 
 Start in the lfpl_cleaning.ipynb notebook and run, selecting venv as the kernal.
