@@ -9,8 +9,12 @@ DATA USED:
 
 First Data Source: https://data.louisvilleky.gov/datasets/6f00d1da8c374ff48d1f594155c341df_0/explore
 
-Second Data Source: I accessed an API to pull specific information in relation to the ISBN of the book: 
+Second Data Source: I accessed an API to pull specific information in relation to the ISBN of the book: https://isbndb.com/isbn-database
 
+
+How to use:
+In terminal create a virtual environment: -m venv/scripts/activate
+Install the packages from requirements.txt: pip install -r requirements.txt
 
 Contents
 
@@ -42,3 +46,5 @@ Contents
     
 4. # library_db.ipynb #
     This is the notebook where I made the connection to build the database and to import the data from the two csvs. 
+
+Final Findings
