@@ -32,33 +32,41 @@ Start in the lfpl_cleaning.ipynb notebook and run, selecting venv as the kernal.
 
 # Contents: #
 
-1. # lfpl_cleaning.ipynb #
+1. lfpl_cleaning.ipynb 
     This is the first notebook created to read in the code from the Louisville Metro site.
 
     I cleaned the code with notations in the markdown for my thought process. To summarize, I made the data more accesible to link it with the results of the API and removed any other form of media that was not categorized as a book.
 
-     # lfpl_cleaned_data.csv #
+    lfpl_cleaned_data.csv
+
     This is the completed cleaned data from he lfpl_cleaning.ipynb
 
-    # Split.ipynb #
+    Split.ipynb
+
     I created a separate notebook to split the data from the lfpl_cleaned_data.csv to split based on branch name. The intent of the original project was to see if there was any variation on aquisition based on library location. Due to time constraint, I would not have been able to pull the data from the API in time for the completion. This may be a continued endeavor to continue post the end of Code:You cohort.
 
-    # lfpl_northeast_branch.csv #
+    lfpl_northeast_branch.csv
+
     This is the CSV that was read through the API.
 
-2.  # API_search.ipynb #
+2.   API_search.ipynb
+
     This is a copy of the code used to call the API and feed the max number of isbns through to pull the subsequent data. If looked at a previous commit of the branch, I mistakingly touched the file during a push with the API key disclosed. This was an error on my part, but since the purpose of the API key was complete I then deactivated the account and deleted the previous file. To avoid future occurences, .gitignore will be utilized.
 
-    # Cleaned Data Folder #
+    Cleaned Data Folder
+
     All csvs that were saved info from the API function were saved into this folder to later be concatenated.
 
-    # NE_ISBN_cleaning.ipynb #
+    NE_ISBN_cleaning.ipynb
+
     This is the notebook where I combined all of the csvs from the API, and then did the data cleaning and wrangling. According to the markdowns.
 
-3. # library erd.jpeg #
+3. library erd.jpeg
+
     I touched up the ERD from earlier and fixed it with the specific information for the columns based on the name in the df.
     
-4. # library_db.ipynb #
+4. library_db.ipynb
+
     This is the notebook where I made the connection to build the database and to import the data from the two csvs. 
 
 # Use of AI: #
@@ -68,5 +76,8 @@ Any AI used in this project was to help debug some minor issues, double check on
 # Final Findings: #
 
 I started this project looking to see if there was a noticeable trend in the aquisition of books based on a library branch location. Doing this search for the NorthEast Branch of LFPL and based on the data presented, Juvenile Fiction was the highest spent genre in 2022. Based on the central location of the branch being less than a mile of several elementary schools and the YMCA, it is easy to predict this could be a heavy influence on the aquisition. It would be interesting to compare other branches to see if they also prioritize Juvenile and Childrne's fiction over all else, or if there is another influence.
+
+![Top 5 Primary Genres from NorthEast](image-1.png)
+
 
 
